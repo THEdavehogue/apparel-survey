@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Giant Denver Apparel Survey</title>
+	<meta charset="utf-8" />
+        {% load staticfiles %}
+    <link rel='shortcut icon' href="{% static 'images/favicon.ico' %}" type='image/x-icon'/>
+    <link rel='stylesheet' href="{% static 'css/giant-theme-1.css'%}" type='text/css'/>
+</head>
+
+<div id="header-and-menu-store" class="clearfix">
+    <header>
+		<div id="custom-logo" class="clearfix">
+        	<a href="http://www.giantdenver.com/en-us/">
+            	<img src="{% static 'images/Logo_giantcyclingworlddenver.png' %}">
+        	</a>
+		</div>
+		<div id="menu-and-search" class="clearfix">
+			<p style="color:#FFFFFF"; >APPAREL SURVEY</p>
+		</div>
+    </header>
+</div>
+
+<body class="body" style="background-color:#f6f6f6">
+	<div>
+	   {% block content %}
+	   {% endblock %}
+	</div>
+</body>
+
+</html>

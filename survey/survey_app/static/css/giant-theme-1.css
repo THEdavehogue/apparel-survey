@@ -1,0 +1,28 @@
+header {
+    height: 140px;
+    background-image: url('../images/bg_header_fixed_customlogo_140.gif');
+}
+
+@font-face {
+    font-family: "RideLife";
+    src: url('../fonts/RideLife_0.woff')
+}
+
+#custom-logo {
+    width: 970px;
+    height: 90px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+#menu-and-search {
+    width: 970px;
+    height: 40px;
+    font-family: "RideLife";
+    font-size: 115%;
+    /*font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 76%;
+    font-weight: bold;*/
+    padding: 5px;
+    margin: 0 auto;
+    background: url('../images/bg_menu_giantblue_no_pattern.png') no-repeat top left; }
