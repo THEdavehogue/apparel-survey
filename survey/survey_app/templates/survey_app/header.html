@@ -6,27 +6,26 @@
 	<meta charset="utf-8" />
         {% load staticfiles %}
     <link rel='shortcut icon' href="{% static 'images/favicon.ico' %}" type='image/x-icon'/>
-    <link rel='stylesheet' href="{% static 'css/giant-theme-1.css'%}" type='text/css'/>
+    <link rel='stylesheet' href="{% static 'css/giant-theme.css'%}" type='text/css'/>
 </head>
 
-<div id="header-and-menu-store" class="clearfix">
+<div style="background: #cbcbcb">
     <header>
-		<div id="custom-logo" class="clearfix">
+		<div id="custom-logo">
         	<a href="http://www.giantdenver.com/en-us/">
             	<img src="{% static 'images/Logo_giantcyclingworlddenver.png' %}">
         	</a>
 		</div>
-		<div id="menu-and-search" class="clearfix">
+		<div id="menu-and-search">
 			<p style="color:#FFFFFF"; >APPAREL SURVEY</p>
 		</div>
     </header>
-</div>
-
-<body class="body" style="background-color:#f6f6f6">
-	<div>
+	<div id="main" class="main-store-home">
+		<div class="left">
 	   {% block content %}
 	   {% endblock %}
+   		</div>
 	</div>
-</body>
+</div>
 
 </html>
