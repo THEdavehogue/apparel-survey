@@ -34,6 +34,7 @@ header {
     top: -16px;
     left: -10px;
     background: #cbcbcb;
+    background: linear-gradient(#e6e6e6, #cbcbcb);
     margin-left: 10px;
 }
 
@@ -43,4 +44,10 @@ header {
     width: 970px;
     height: 100vh;
     margin: 0 auto;
+}
+
+.text {
+    font-family: "RideLife";
+    font-size: 100%;
+    padding: 15px;
 }
