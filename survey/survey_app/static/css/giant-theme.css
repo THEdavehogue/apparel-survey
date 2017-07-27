@@ -50,4 +50,22 @@ header {
     font-family: "RideLife";
     font-size: 100%;
     padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.button {
+    background: #1087D9;
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#1087D9), to(#0B77C1));
+    background: -moz-linear-gradient(center top, #1087D9, #0B77C1);
+    font-family: "Arial";
+    margin: 15px;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 80%;
+    font-weight: bold;
 }
